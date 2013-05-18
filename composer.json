@@ -16,26 +16,6 @@
 		{
             "type": "package",
             "package": {
-                "name": "jkuchar/PdfResponse-local",
-                "version": "1.0.0",
-				"require": {
-					"php": ">= 5.3.0",
-					"nette/nette": ">= 2.0.7",
-					"mpdf/mpdf": ">= 5.0"
-				},
-				"autoload": {
-					"classmap": ["/"]
-				},
-                "source": {
-                    "url": "file://d:/www/00_Vyvoj/__git_migration/PdfResponse/.git",
-                    "type": "git",
-                    "reference": "cleanup"
-                }
-            }
-        },
-		{
-            "type": "package",
-            "package": {
                 "name": "simplehtmldom/simplehtmldom",
                 "version": "dev-master",
 				"require": {
@@ -55,7 +35,7 @@
 	"require": {
 		"php": ">= 5.3.0",
 		"nette/nette": ">= 2.0.7",
-		"jkuchar/PdfResponse-local": "*",
+		"jkuchar/PdfResponse": "dev-master",
 		"simplehtmldom/simplehtmldom": "dev-master"
 	},
     "require-dev": {
