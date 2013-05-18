@@ -29,12 +29,32 @@
                     "reference": "cleanup"
                 }
             }
+        },
+		{
+            "type": "package",
+            "package": {
+                "name": "simplehtmldom/simplehtmldom",
+                "version": "dev-master",
+				"require": {
+					"php": ">= 5.0.0"
+				},
+				"autoload": {
+					"classmap":["simple_html_dom.php"],
+					"files": ["simple_html_dom.php"]
+				},
+                "source": {
+                    "url": "http://svn.code.sf.net/p/simplehtmldom/code",
+                    "type": "svn",
+					"reference": "trunk"
+                }
+            }
         }
     ],
 	"require": {
 		"php": ">= 5.3.0",
 		"nette/nette": ">= 2.0.7",
-		"jkuchar/PdfResponse-local": "*"
+		"jkuchar/PdfResponse-local": "*",
+		"simplehtmldom/simplehtmldom": "dev-master"
 	},
     "require-dev": {
         "nette/tester": "@dev"
