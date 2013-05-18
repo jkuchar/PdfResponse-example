@@ -23,6 +23,9 @@
 					"nette/nette": ">= 2.0.7",
 					"mpdf/mpdf": ">= 5.0"
 				},
+				"autoload": {
+					"classmap": ["/"]
+				},
                 "source": {
                     "url": "file://d:/www/00_Vyvoj/__git_migration/PdfResponse/.git",
                     "type": "git",
@@ -39,8 +42,7 @@
 					"php": ">= 5.0.0"
 				},
 				"autoload": {
-					"classmap":["simple_html_dom.php"],
-					"files": ["simple_html_dom.php"]
+					"classmap":["simple_html_dom.php"]
 				},
                 "source": {
                     "url": "http://svn.code.sf.net/p/simplehtmldom/code",
