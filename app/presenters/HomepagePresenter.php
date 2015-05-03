@@ -43,7 +43,7 @@ class HomepagePresenter extends BasePresenter {
 		// Všechny tyto konfigurace jsou volitelné:
 
 		// Orientace stránky
-		$pdf->pageOrientaion = PDFResponse::ORIENTATION_LANDSCAPE;
+		$pdf->pageOrientation = PDFResponse::ORIENTATION_LANDSCAPE;
 		// Formát stránky
 		$pdf->pageFormat = "A0";
 		// Okraje stránky
